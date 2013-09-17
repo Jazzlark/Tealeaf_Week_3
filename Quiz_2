@@ -1,0 +1,40 @@
+#week2quiz.rb
+
+#1  @a = 2 : is an instance variable.
+#   user = user.new : is an object
+#   user.name  :is a method.   
+#   user.name = Joe  :is a setter method
+
+
+#2.  Ruby doesn't allow multiple inheritance.  A class can only inherit from one parent or superclass
+#   If we need additional functionality to be brought in among the classes we will need to put a 
+#   module and then we can mix it in to the classes that need it.  So, we take the functionality
+#   of the class and put it under the module...for instance the name of the module is sillypants.
+#   Then when we put the method "include" then sillypants under the classes that we want to 
+#   inherit that functionality. 
+
+#3.  A class variable has 2 @ (at) symbols.  Like this: @@variable.  And an instance variable has 1 @ (at) symbol: 
+#   like this: @variable.  They let Ruby know what the scope of the variable should be. (Scope defines where in a 
+#   program a variable is accessible.)  A class variable is like a global class within the class. (global class 
+#   being accessible from anywhere.)  It is shared among all instances of a class. An instance is similar to class
+#   except their values are local to specific instances of an object.  For example, if a class contains
+#   an instance called @last, if one instance of the object changes the current value 
+#   of @last the chsnge is only local to that object that made the change.
+
+#4. attr_accessor defines both a reader and writer or getters and setters.  An object's instance variables are it's
+#  attributes.  The things that distinguish it from other objects in the same class.  It's important to read and write
+#  these attributes and attr_accessor does both.
+
+#5. Dog.some_method is an object method.
+
+#6. Subclassing is really simple compared to creating a module.  If you want a class to inherit from a parent or a 
+#   superclass you would just write the "<"" sign.  For instance you can have class Honey and class Bee and you want 
+#   class bee to inherit from honey it would look like this:  class Bee < Honey
+
+#7   def initialize(user)
+#        @user = user
+
+#8   Yes
+
+#9.  One is supposed to use binding.pry.  I am not an expert in it yet.  When the command line has complaints, I go line
+#    by line to try to debug.  I look for spaces, mispellings, missing symbols etc.
