@@ -1,0 +1,34 @@
+#week1quiz.rb
+
+#1. 3
+
+#2. An ARRAY is always ordered data in between square brackets.  You can retrieve from the index. 
+#   A great example that I got when watching lynda.com's videos on Ruby Essentials is that it's 
+#   like a file folder. It keeps the data organized.
+
+#   A HASH is data between curly braces.  It does not guarentee order.  Hash allows you to use any 
+#   object. The difference between a hash to an array is that the hash is more like a hanging file 
+#   folder.  You can rearrange the files in different orders.
+
+#3.  [1, 2, 3,].....because .uniq takes out the redundancies.
+
+#4.  Isn't map & select the same thing?
+#    For instance, if I wanted to take a letter out of the array below I would first type an array:
+#    [1,2,3,4,5]
+#    Then is I wanted to select or map something out of the array I would type this
+#    [1,2,3,4,5].select { |num| num.odd} 
+#          OR!
+#     [1,2,3,4,5].map   {|num| num.odd}
+#      It would then return the odd number of 1,3 & 5.
+
+#5.   The difference between a string and a symbol is that a symbol can be stored only one time in the
+#     memory and a string can be used over and over.  A symbol has a colon in front of it's name like 
+#     this:  :ball ....while the string is in double or single quotes such as: 'bat'.  So, if I was 
+#     going to put a string within a hash it would be like this: it would be like this: #{name} 
+
+#6.   It should return as "yes, sir!", because of the .odd method....but there should be an if and a
+#      "puts". It doesn't seem like it will work.
+
+#7    x is 3
+
+#8    x is 1  unless my math brain is dead.        
